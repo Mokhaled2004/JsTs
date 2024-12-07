@@ -1,0 +1,19 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "isAdmin": false,
+    "friends": [
+        {
+            "name": "Jane Doe",
+            "age": 25,
+            "isAdmin": true
+        },
+        {
+            "name": "Jim Doe",
+            "age": 35,
+            "isAdmin": false
+        }
+    ],
+    "address": null,
+    "phone": undefined
+}

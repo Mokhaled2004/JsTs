@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=P@ssw0rd
+      - MSSQL_PID=Express
+    volumes:
+      - ./mssql_data:/var/opt/mssql
+    networks:
+      - mssql_network
+
+volumes:
+  mssql_data:
+    driver: local
+
+networks:
+  mssql_network:
+    driver: bridge
+
+    # daemon mode "-d"

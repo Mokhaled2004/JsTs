@@ -1,0 +1,7 @@
+.greeting {
+    color: green;
+}
+
+#tasks-list {
+    list-style-type: square;
+}

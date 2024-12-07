@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Task App</title>
+    </head>
+    <body>
+        <div id="root">
+            <button id="logout-button">Logout</button>
+            <h1 class="greeting">My Tasks</h1>
+
+            <input type="text" placeholder="Enter task" id="add-task-input" />
+            <button type="button" id="add-task-submit-button">Add task</button>
+
+            <ul id="tasks-list">
+            </ul>
+        </div>
+        
+
+        <script src="./config.js"></script>
+        <script src="./httpClient.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+        <script src="./crypto.js"></script>
+        <script src="./jwt.js"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>

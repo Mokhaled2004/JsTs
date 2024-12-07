@@ -1,0 +1,14 @@
+[
+  {
+    "firstName": "Ahmed",
+    "lastName": "Radwan",
+    "email": "a.radwan+01@test.com",
+    "password": "$2a$05$.u44eKLFTG2ZOP27KlaG4.EUzAoe/OLjjsZbhSQ6xEze6Gw5JYTfm"
+  },
+  {
+    "firstName": "Mohammed",
+    "lastName": "Khaled",
+    "email": "mo.khaled@ok.test",
+    "password": "$2a$05$7e23qpBIS67h631/yqBB0OdUddkxBAjXDrKzBrARPlImSkPi4ujNy"
+  }
+]
